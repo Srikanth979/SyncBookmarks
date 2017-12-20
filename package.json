@@ -1,0 +1,29 @@
+{
+  "name": "syncbookmarksrestapi",
+  "version": "1.0.0",
+  "description": "RESTful SyncBookmarksApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error no test specified\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srikanth979/SyncBookmarksRestApi.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Srikanth Akurathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Srikanth979/SyncBookmarksRestApi/issues"
+  },
+  "homepage": "https://github.com/Srikanth979/SyncBookmarksRestApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
