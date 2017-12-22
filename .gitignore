@@ -59,3 +59,6 @@ typings/
 
 # VS Code environment settings
 .vscode/
+
+# Firebase App Init file
+api/firebase/firebaseConfig.js
