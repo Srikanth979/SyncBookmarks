@@ -61,4 +61,4 @@ typings/
 .vscode/
 
 # Firebase App Init file
-api/firebase/firebaseConfig.js
+api/firebase/config/firebaseConfig.js

@@ -1,8 +1,10 @@
 const fireBaseVar = require('firebase');
-
-// Initialize Firebase
-const config = require('./firebaseConfig');
-
+const config = require('./config/firebaseConfig'); //Firebase Config file
 fireBaseVar.initializeApp(config);
-const signUpPage = require('./signUp');
-module.exports = signUpPage;
+
+const authFile = require('./auth/auth'); //Module written to use Firebase Auth
+
+module.exports = {
+    "auth": authFile,
+    "firebaseConfigured": fireBaseVar
+};
